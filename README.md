@@ -1,2 +1,3 @@
 # Modulus-Calculator
- Modulus Calculator in Vanilla JavaScript
+ Modulus Calculator in Vanilla JavaScript.
+ Demo => https://iamprime.github.io/Modulus-Calculator/
