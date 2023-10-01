@@ -10,7 +10,9 @@ body {
     padding: 0;
     margin: 0;
     /**background: darkolivegreen;*/
-    background-image: url('bgImg.jpg');
+    background: darkolivegreen url('bgImg.jpg') no-repeat;
+    background-size: 46rem 55rem;
+    background-position: 47% top;
 }
 
 /* Styles for the calculator grid container */
@@ -88,7 +90,7 @@ body {
 }
 
 .calc-grid .fraction-btn:hover {
-    background-color: green;
+    background-color: yellowgreen;
 }
 
 .calc-grid .solve-btn {
