@@ -162,12 +162,8 @@ body {
 }
 
 @media (min-width: 75rem) {
-    body {
-        background-size: 60rem 70rem;
-    }
-
     .calc-grid {
-        left: 50%;
-        top: 50%;
+        left: 39%;
+        top: 39%;
     }
 }
