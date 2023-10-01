@@ -161,6 +161,7 @@ body {
 }
 
 @media only screen and (max-width: 48rem) {
+    .col-s-1 {width: 2.33%;}
     body {
         background-size: cover;
     }
