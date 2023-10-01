@@ -150,7 +150,17 @@ body {
 }
 
 /* Media query for screens smaller than */
-@media (max-width: 48rem) {
+@media only screen and (max-width: 35rem) {
+    body {
+        background: darkolivegreen;
+    }
+
+    .calc-grid {
+        right: 33%;
+    }
+}
+
+@media only screen and (max-width: 48rem) {
     body {
         background-size: cover;
     }
@@ -161,9 +171,20 @@ body {
     }
 }
 
-@media (min-width: 75rem) {
+@media only screen and (width: 75rem) {
     .calc-grid {
         left: 39%;
         top: 39%;
+    }
+}
+
+@media only screen and (width: 48rem) {
+    body {
+        background-size: 42.9rem;
+        background-size: 48rem 64rem;
+    }
+
+    .calc-grid {
+        left: 33%;
     }
 }
