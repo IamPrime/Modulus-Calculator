@@ -148,3 +148,26 @@ body {
     color: white;
     font-size: 2.5rem;
 }
+
+/* Media query for screens smaller than */
+@media (max-width: 48rem) {
+    body {
+        background-size: cover;
+    }
+
+    .calc-grid {
+        left: 20%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 75rem) {
+    body {
+        background-size: 60rem 70rem;
+    }
+
+    .calc-grid {
+        left: 50%;
+        top: 50%;
+    }
+}
