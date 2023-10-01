@@ -161,20 +161,15 @@ body {
 }
 
 @media only screen and (max-width: 48rem) {
-    .col-s-1 {width: 2.33%;}
+    .col-s-1 {width: 2%;}
+    .col-s-2 {width: 8.33%;}
+    .col-s-1 {width: 16.66%;}
     body {
         background-size: cover;
     }
 
     .calc-grid {
         left: 35%;
-        top: 39%;
-    }
-}
-
-@media only screen and (width: 75rem) {
-    .calc-grid {
-        left: 39%;
         top: 39%;
     }
 }
@@ -187,5 +182,38 @@ body {
 
     .calc-grid {
         left: 33%;
+    }
+}
+
+@media only screen and (min-width: 51.25rem) {
+    body {
+        background-size: cover;
+    }
+
+    .calc-grid {
+        left: 35%;
+    }
+}
+
+@media only screen and (min-width: 62.5rem) {
+    body {
+        background-size: 100% 37.5rem;
+    }
+
+    .calc-grid {
+        right: 35%;
+    }
+}
+
+@media only screen and (width: 75rem) {
+    .calc-grid {
+        left: 39%;
+        top: 39%;
+    }
+}
+
+@media only screen and (min-width: 77.5rem) {
+    body {
+        background-size: 100% 50rem;
     }
 }
